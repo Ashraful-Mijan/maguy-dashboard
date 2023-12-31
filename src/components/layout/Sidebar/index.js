@@ -4,8 +4,8 @@ const Sidebar = () => {
     return (
         <div className='w-[372px] box-border flex'>
             <div className='flex w-[372px] fixed top-0 left-0 bottom-0'>
-            <SideNav />
-            <SidebarRight />
+                <SideNav />
+                <SidebarRight />
             </div>
         </div>
     )

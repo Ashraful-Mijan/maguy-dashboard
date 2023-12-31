@@ -32,9 +32,10 @@ export default function DataTable({
 
     return (
         <div
+
         >
-            <ScrollArea className="pb-4" style={{ maxWidth: 'calc(100vw - 400px)' }}>
-                <Table className="">
+            <ScrollArea className="pb-4 px-8" style={{ maxWidth: 'calc(100vw - 400px)' }}>
+                <Table>
                     <TableHeader>
                         {table?.getHeaderGroups()?.map((headerGroup) => (
                             <TableRow key={headerGroup.id}>
@@ -79,8 +80,9 @@ export default function DataTable({
 
                 <ScrollBar orientation="horizontal" />
             </ScrollArea>
+
             {/* pagination */}
-            <div className="py-4">
+            <div className="py-4 px-8">
                 <TablePagination table={table} />
             </div>
         </div>
