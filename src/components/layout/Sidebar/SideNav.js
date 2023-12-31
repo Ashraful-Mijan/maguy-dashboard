@@ -20,7 +20,7 @@ const SideNav = () => {
                         <div className="w-[40px] h-[40px] flex items-center justify-center hover:bg-[#F1F6FF] rounded-[6px]">
                             <img src="/images/arrow-up.svg" />
                         </div>
-                        <div className="w-[40px] h-[40px] flex items-center justify-center hover:bg-[#F1F6FF] rounded-[6px]">
+                        <div className="w-[40px] h-[40px] flex items-center justify-center bg-[#F1F6FF] rounded-[6px]">
                             <img src="/images/calender.svg" />
                         </div>
                         <div className="w-[40px] h-[40px] flex items-center justify-center hover:bg-[#F1F6FF] rounded-[6px]">

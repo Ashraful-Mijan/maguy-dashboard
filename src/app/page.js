@@ -49,7 +49,7 @@ export default function Home() {
           </Select>
           <Select>
             <SelectTrigger className="w-[149px]">
-              <SelectValue placeholder="Driver" />
+              <SelectValue placeholder="Account" />
             </SelectTrigger>
             <SelectContent>
               <SelectGroup>
